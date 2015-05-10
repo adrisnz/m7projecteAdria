@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+	font-family: 'Arial', sans-serif;
+	background-color:white;
+	color:black !important;
+
+
+}
+header{
+	color:black !important;
+	height: 100px;
+}
+
+#wrapper h1{
+	font:normal 60pt Arial;
+	color:black;
+	
+				height: 100px;
+				float:left;
+				display: block;
+	}
+
+.logo{
+	height: 100px;
+	float:left;
+	display: block;
+	
+}
+.header-tit{
+	width: 48%;
+	float:left;
+	display: block;
+}
+.regist{
+	padding-top: 3px;
+	padding-right: 3px;
+	background-color: none;
+	width:50%;
+	text-align: right;
+	float: left;
+	color:black !important;
+	text-decoration: none;
+	color:black !important;
+	font-variant: small-caps;
+}
+
+
+.regist input[type=text] {
+	margin-left: 0.5em;
+	font-variant: small-caps;
+
+}
+.bEntra{
+		font-variant: small-caps;
+		color:#FFF;
+		background-color: darkgrey;
+
+
+}
+#hello{
+	display: inline-block;
+}
+.registre{
+	padding-top: 3px;
+	padding-right: 3px;
+	background-color: #848484;
+	width:80%;
+	margin:auto;
+}
+footer{
+	margin:3px;
+	padding: 3px;
+	float:none;
+	text-align: center;
+	height: 150px;
+
+}
+
+.linea1-item {
+height:120px;
+}
+
+
+.linea1 {
+			display: flex;
+			display: -webkit-flex;
+			-webkit-flex-flow: row wrap;
+			margin-top: 50px;
+		}
+		.uno {
+    background-image: url("../img/uno.jpg");
+			flex: 1;
+			-webkit-flex: 1;
+			-webkit-order: 1;
+			margin-left: 5%;
+			color: white;
+background-size: cover;
+
+		}
+		.dos{
+    background-image: url("../img/dos.jpg");
+			flex: 1;
+			-webkit-flex:1;
+			-webkit-order: 2;
+			margin-left: 290px;
+			margin-right: 5%;
+background-size: cover;
+
+		}
+		#tres{
+    background-image: url("../img/tres.jpg");
+color:white;
+		}
+
+		#cuatro
+		{
+    background-image: url("../img/cuatro.jpg");
+background-size: cover;
+
+
+		}
+#cuatro p
+		{
+	color:black !important;
+		}
+
+		.linea1-item {
+			display: flex;
+			display: -webkit-flex;
+			-webkit-flex-direction: column;
+			padding-left: 20px;
+			padding-right: 200px;
+		}
+	
+

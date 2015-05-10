@@ -1,0 +1,16 @@
+{
+	"driver":"mysql",
+    "dbname":"2daw12_projectem7",
+    "dbhost":"localhost",
+    "dbuser":"2daw12_adria",
+    "dbpass":"adriam7",
+	"app_data":{
+    	"css":"css/app.css",
+    	"js":"js/application.js",
+        "titol":"M7Adria",
+        "logo":"img/logo.png",
+        "apli":"KMan",
+        "theme":"pub/themes/k/",
+        "app_w":""
+    }
+}
